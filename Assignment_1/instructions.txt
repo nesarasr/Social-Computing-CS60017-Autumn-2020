@@ -1,0 +1,37 @@
+'''
+Social Computing CS60017 2020A : Assignment 1
+
+
+Submitted by:
+Name    : Nesara S R
+Roll No : 18IM30014
+
+'''
+
+Working Details
+
+
+1) System : macOS 10.15.5
+
+2) Program executed on : Anaconda Virtual environment
+
+3) Version details 
+
+	1) Python : 3.7.6  
+
+	2) Snap : 5.0.0		conda install -c snap-stanford snap-stanford : for Mac installation
+
+	3) gnuplot : 5.0.4  	conda install -c bioconda/label/cf201901 gnuplot : for Mac installation
+
+4) Run gen_structure.py :
+	
+	Change working directory to : ../18IM30014
+
+	Run :  python3 gen_structure.py facebook.elist OR python3 gen_structure.py amazon.elist 
+
+5) Plots generated can be accessed in ../18IM40014/plots	(the code deletes the .plt and .tab files generated automatically by snap and retains only .png format of the plots)
+
+
+6) In case the following warning arises : "Fontconfig warning: ignoring UTF-8: not a valid region tag" 
+
+	Run on terminal : export LC_CTYPE="en_US.UTF-8

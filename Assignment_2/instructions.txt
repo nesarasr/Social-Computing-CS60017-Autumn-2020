@@ -1,0 +1,57 @@
+'''
+Social Computing CS60017 2020A : Assignment 2
+
+# Task 1 executed in C++
+# Task 2 executed in Python 3
+
+Submitted by:
+Name    : Nesara S R
+Roll No : 18IM30014
+
+'''
+
+Working Details
+
+
+1) System : macOS 10.15.5
+
+2) Python Program executed on : Anaconda Virtual environment
+
+3) Version details 
+
+	1) Python : 3.7.6  
+
+	2) Snap : 5.0.0		conda install -c snap-stanford snap-stanford : for Mac installation
+
+
+4) Run gen_centrality.cpp :
+
+	Change working directory to : ../18IM30014
+
+	Run :  gcc gen_centrality.py OR g++ gen_centrality.cpp ( I used g++ gen_centrality.cpp on my system) 	
+
+
+	# <stdc++.cpp> and <stdc++.hpp> files have been included in the submission. This is to replace <bits/stdc++.h> as I faced some issues while using it on my system
+
+5) Run analyze_structure.py :
+	
+	Change working directory to : ../18IM30014
+
+	Run :  python3 gen_structure.py facebook.elist OR python3 gen_structure.py amazon.elist 
+
+6) Access the centrality measure lists here : ../18IM30014/centralities
+
+		-  closeness.txt
+
+		-  betweenness.txt
+
+		-  pagerank.txt
+
+7) Average runtime for gen_centrality.cpp and analyze_centrality.py :=      < 1 min (on my system)
+
+8) Brandes Algorithm has been used to compute betweenness centrality : [ref] : http://www.uvm.edu/pdodds/research/papers/others/2001/brandes2001a.pdf
+
+
+
+
+

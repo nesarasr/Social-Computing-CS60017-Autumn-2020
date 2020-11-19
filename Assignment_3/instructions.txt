@@ -1,0 +1,36 @@
+'''
+Social Computing CS60017 2020A : Assignment 3
+
+
+Submitted by:
+Name    : Nesara S R
+Roll No : 18IM30014
+
+'''
+
+Working Details
+
+
+1) System : macOS 10.15.5
+
+2) Python Program executed on : Anaconda Virtual environment
+
+3) Library dependencies :
+
+		  i. Sklearn
+		 ii. Pandas
+		iii. Numpy
+		 iv. Tweet preprocessor : !pip install tweet-preprocessor
+		  v. pathlib
+    		 vi. Nltk 
+		vii. Gensim
+	       viii. Fasttext : following steps in the terminal to install
+			
+			--> wget https://github.com/facebookresearch/fastText/archive/0.2.0.zip
+			--> unzip 0.2.0.zip
+			--> cd fastText-0.2.0
+			--> make
+
+
+
+
